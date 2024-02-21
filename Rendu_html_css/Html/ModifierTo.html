@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/ModifierTo.css">
+    <title> Modifier To Do</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Connect">
+            <form action="#">
+                <div class="content">
+                    <h1>Modifier un To Do</h1>
+                    <a href="/Html/MesToDo.html" class="buttonR">Retour</a>
+                    <input type="text" id="titre" name="titre" placeholder="Titre" class="titre-textarea" value="Preparer a manger" required>
+                    <textarea id="description" name="description" placeholder="Description" rows="4" cols="40" class="description-textarea"></textarea>
+                    <input type="text" id="Creation" name="Creation" placeholder="Creation" class="dateCreation-textarea" value="30/01/2024" required>
+                    <input type="text" id="Echéance" name="Echéance" placeholder="Echéance" class="datehEcheance-textarea" value="30/02/2024" required>
+                    <div class="priority-selection">
+                        <label>
+                            <input type="radio" id="basse" name="priorite" value="Basse" required checked>
+                            Basse
+                        </label>
+                        <label>
+                            <input type="radio" id="normal" name="priorite" value="Normal" required>
+                            Normal
+                        </label>
+                        <label>
+                            <input type="radio" id="haute" name="priorite" value="Haute" required>
+                            Haute
+                        </label>
+                    </div>
+                    <br>
+                    <div class="stat-selection">
+                        <label>
+                            <input type="radio" id="Créé" name="stat" value="Créé" required>  <!-- Non selectionner -->
+                            Créé
+                        </label>
+                        <label>
+                            <input type="radio" id="En cours" name="stat" value="En cours" required checked> <!-- automatiquement selectionner -->
+                            En cours
+                        </label>
+                        <label>
+                            <input type="radio" id="Effectuer" name="stat" value="Effectuer" required>
+                            Effectuer
+                        </label>
+                    </div>
+                    <input type="submit" value="Sauvegarder">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

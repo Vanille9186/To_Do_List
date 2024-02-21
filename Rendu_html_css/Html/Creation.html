@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/Creation.css">
+    <title>To Do Creation</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Connect">
+            <form action="#">
+                <div class="content">
+                    <h1>Creation d'un To Do</h1>
+                    <a href="/Html/MesToDo.html" class="buttonR">Retour</a> 
+                    <input type="text" id="titre" name="titre" placeholder="Titre" class="titre-textarea" required> 
+                    <textarea id="description" name="description" placeholder="Description" rows="4" cols="40" class="description-textarea"></textarea>
+                    <input type="text" id="Creation" name="Creation" placeholder="Creation" class="dateCreation-textarea" required>
+                    <input type="text" id="Echéance" name="Echéance" placeholder="Echéance" class="datehEcheance-textarea" required>
+                    <div class="priority-selection">
+                        <label>
+                            <input type="radio" id="basse" name="priorite" value="Basse" required>
+                            Basse
+                        </label>
+                        <label>
+                            <input type="radio" id="normal" name="priorite" value="Normal" required>
+                            Normal
+                        </label>
+                        <label>
+                            <input type="radio" id="haute" name="priorite" value="Haute" required>
+                            Haute
+                        </label>
+                    </div>
+                    <br>
+                    <div class="stat-selection">
+                        <label>
+                            <input type="radio" id="Créé" name="stat" value="Créé" required checked> <!-- automatiquement selectionner -->
+                            Créé
+                        </label>
+                        <label>
+                            <input type="radio" id="En cours" name="stat" value="En cours" required> <!-- Non selectionner -->
+                            En cours
+                        </label>
+                        <label>
+                            <input type="radio" id="Effectuer" name="stat" value="Effectuer" required>
+                            Effectuer
+                        </label>
+                    </div>
+                    <input href="/Html/MesToDo.html" type="submit" value="Créé">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

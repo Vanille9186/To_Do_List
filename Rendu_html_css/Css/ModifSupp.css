@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+}
+
+.Connect {
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.buttonR {
+    margin-left: 850px;
+    margin-top: -40px;
+    background-color: #4e085f;
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer; 
+    margin-bottom: 10px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+textarea {
+    margin-bottom: 10px;
+}
+
+.priority-selection,
+.stat-selection {
+    display: flex;
+    flex-direction: column;
+}
+
+.priority-selection label,
+.stat-selection label {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    align-self: flex-end;
+    background-color: greenyellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.description-textarea {
+    resize: none;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.titre-textarea {
+    border-radius: 5px;
+    width: 50%;
+}
+.dateCreation-textarea {
+    border-radius: 5px;
+    width: 25%;
+}
+
+.datehEcheance-textarea {
+    border-radius: 5px;
+    width: 25%;
+}

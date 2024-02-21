@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.Connect {
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#phrase-cliquable {
+    font-size: 30px;
+    cursor: pointer;
+    display: inline;
+}
+
+.phrase1 {
+    font-size: 30px;
+    background-color: greenyellow;
+    color: black;
+    display: inline;
+    border-radius: 25px;
+}
+
+.phrase2 {
+    font-size: 30px;
+    background-color: aqua;
+    color: black;
+    display: inline;
+    border-radius: 25px;
+}
+
+.phrase3 {
+    font-size: 30px;
+    background-color: aqua;
+    color: black;
+    display: inline;
+    border-radius: 25px;
+}
+
+.phrase4 {
+    font-size: 30px;
+    background-color: aqua;
+    color: black;
+    display: inline;
+    border-radius: 25px;
+}
+
+.buttonD {
+    margin-left: 800px;
+    margin-top: -45px;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 90%;
+    border: none;
+    outline: none;
+    background: #4e085f;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonC {
+    margin-left: 850px;
+    margin-top: 450px;
+    border: none;
+    outline: none;
+    background: grey;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonS {
+    margin-left: 850px;
+    margin-right: 300px;
+    margin-top: -64px;
+    border: none;
+    outline: none;
+    background: grey;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
